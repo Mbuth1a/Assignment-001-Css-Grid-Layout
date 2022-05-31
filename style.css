@@ -1,0 +1,56 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1 fr 1 fr ;
+    grid-template-rows: 0.2fr 1.5fr 1.3fr 0.5fr;
+    grid-template-areas: 
+    "nav nav nav"
+    "LeftSidebar MainContent RightSidebar"
+    " Footer Footer Footer"
+    ;
+    text-align: center;
+    color: white;
+    border-radius: 30%;
+    padding: 20px 20px;
+    margin-top: 20px;
+    grid-gap: 5px;
+
+}
+nav{
+
+    background-color: #fe8515;
+    grid-area: nav;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+Header{
+    background-color: #FE8515;
+    grid-area: Header;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#LeftSidebar{
+    background-color: #7FC242;
+    grid-area: LeftSidebar;
+    border-radius: 10px;
+
+}
+
+#MainContent{
+    background-color: #8bf10a;
+    grid-area: MainContent;
+    border-radius: 10px;
+}
+#RightSidebar{
+    background-color: #7fc242;
+    grid-area: RightSidebar;
+    border-radius: 10px;
+
+}
+Footer{
+    background-color: #f57e20;
+    grid-area: Footer;
+}
