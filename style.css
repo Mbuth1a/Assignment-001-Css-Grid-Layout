@@ -11,7 +11,7 @@
     text-align: center;
     color: white;
     border-radius: 30%;
-    padding: 20px 20px;
+    
     margin-top: 20px;
     grid-gap: 5px;
 
@@ -21,14 +21,14 @@ nav{
     background-color: #fe8515;
     grid-area: nav;
     border-radius: 20px;
-    box-sizing: border-box;
+    
     border-radius: 10px;
 
 }
 Header{
     background-color: #FE8515;
     grid-area: Header;
-    box-sizing: border-box;
+    
     border-radius: 10px;
 }
 
