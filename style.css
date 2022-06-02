@@ -11,31 +11,34 @@
     text-align: center;
     color: white;
     border-radius: 30%;
+    font-style: normal;
+    font-weight: 700;
+
     
     margin-top: 20px;
     grid-gap: 5px;
 
 }
 nav{
-
+    
     background-color: #fe8515;
     grid-area: nav;
-    border-radius: 20px;
-    
     border-radius: 10px;
+    line-height: 20;
 
 }
 Header{
     background-color: #FE8515;
     grid-area: Header;
-    
     border-radius: 10px;
+    line-height: 20;
 }
 
 #LeftSidebar{
     background-color: #7FC242;
     grid-area: LeftSidebar;
     border-radius: 10px;
+    line-height: 20;
 
 }
 
@@ -43,14 +46,18 @@ Header{
     background-color: #8bf10a;
     grid-area: MainContent;
     border-radius: 10px;
+    line-height: 20;
 }
 #RightSidebar{
     background-color: #7fc242;
     grid-area: RightSidebar;
     border-radius: 10px;
+    line-height: 20;
 
 }
 Footer{
     background-color: #f57e20;
     grid-area: Footer;
+    border-radius: 10px;
+    line-height: 10;
 }
